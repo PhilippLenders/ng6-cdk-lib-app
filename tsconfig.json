@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng6-cdk-lib": [
+        "dist/ng6-cdk-lib"
+      ],
+      "ng6-cdk-lib/*": [
+        "dist/ng6-cdk-lib/*"
+      ]
+    }
   }
 }
